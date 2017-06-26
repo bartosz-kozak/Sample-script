@@ -1,2 +1,2 @@
 # Sample-script
-Sample script created for data analysis
+Sample Python and R script created for data analysis.
