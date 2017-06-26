@@ -5,7 +5,7 @@
 # data: 22-czerwca-2016
 # script converting GenBank format to fasta (fan)
 
-# loading librarys
+# loading libraries
 import sys
 import Bio
 from Bio import SeqIO

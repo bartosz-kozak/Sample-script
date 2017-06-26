@@ -3,7 +3,7 @@
 
 # simple script to convert fasta file to csv file
 
-# imports librarys
+# imports libraries
 import sys
 import os.path
 
