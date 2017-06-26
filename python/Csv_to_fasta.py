@@ -3,7 +3,7 @@
 
 # Simple script to convert csv file to fasta fromat
 
-# import librarys
+# import libraries
 import pandas as pd
 import sys
 import os.path
