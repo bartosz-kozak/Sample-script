@@ -6,7 +6,7 @@
 
 # simple script resize image for internet website
 
-# import potrzebnych bibliotek
+# import libraries
 import PIL
 from PIL import Image
 import os.path
