@@ -1,3 +1,6 @@
+if (!require("adegenet")) install.packages("adegenet")
+if (!require("phangorn")) install.packages("phangorn")
+
 library(adegenet)
 library(phangorn)
 
@@ -15,6 +18,8 @@ boot_fun<-function(df){upgma(dist.gene(df, method = "pairwise"))}
 boot<-boot.phylo(tree_upgma, wyniki_gi@tab, boot_fun)
 plot.phylo(tree_upgma, cex=0.4)
 nodelabels(boot, frame = "n", cex=0.8)
+
+# funkcja do obliczenia współczynnika PIC
 picfunc<-function(x){
   
   picval<-c()

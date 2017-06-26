@@ -1,0 +1,6 @@
+                 Df Sum Sq Mean Sq F value  Pr(>F)   
+df_subset$obiek  74  80.47  1.0874   1.643 0.00626 **
+Residuals       137  90.67  0.6618                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+13 observations deleted due to missingness
