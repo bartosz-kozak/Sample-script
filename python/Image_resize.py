@@ -41,4 +41,3 @@ else:
 	else:
 		print 'miniatura juz istnieje'
 print filename1, 'zrobione'
-# Program konczy dzialanie
