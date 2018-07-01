@@ -41,3 +41,4 @@ else:
 	else:
 		print 'miniatura juz istnieje'
 print filename1, 'zrobione'
+# new comment
